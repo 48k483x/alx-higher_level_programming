@@ -9,7 +9,7 @@ fi
 for i in {1..70}
 do
    echo "a" >> COMMITS.md                       # Append "a" to the file
-   git add COMMITS.md                           # Stage the file for commit
+   git add .                         # Stage the file for commit
    git commit -m "🎉✅ Finished implementing feature updates and optimizations 🚀"  # Commit with the message
    git push # origin main                         # Push the commit to the remote repository
 done
